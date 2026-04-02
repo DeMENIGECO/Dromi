@@ -1,7 +1,11 @@
-# Escludi i file principali dal download ZIP
+# non mette nella zip questo stesso file
 .gitattributes export-ignore
+
+# non mette nella zip il README
 README.md export-ignore
+
+# non mette nella zip la LICENZA 
 LICENSE export-ignore
 
-# Escludi la cartella .github e tutto il suo contenuto
+# non mette nella zip la cartella .github, che serve solo a GitHub
 .github/ export-ignore
