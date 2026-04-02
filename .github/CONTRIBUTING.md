@@ -33,6 +33,8 @@ Se vuoi suggerire nuove funzionalità o miglioramenti:
 
 Se vuoi contribuire scrivendo codice, **Fai un **fork** del repository.**
 
+---
+
 ## Vuoi contribuire a migliorare Dromi?
 **Non sai programmare o modificare il codice?** Nessun problema!
 
