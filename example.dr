@@ -1,0 +1,7 @@
+set_window_size(600,400)
+set_window_title("Prova Interfaccia")
+h1("Benvenuto in Dromi GUI")
+h2("Test sottotitolo")
+p("Questa è una label normale")
+button("Cliccami")
+dr.init()
