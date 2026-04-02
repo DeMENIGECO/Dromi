@@ -69,11 +69,6 @@ from mdl import windawk
 windawk.windawk()
 ```
 
-## Moduli preinstallati
-
-- windawk
-- oTst
-
 ## Installa
 
 
