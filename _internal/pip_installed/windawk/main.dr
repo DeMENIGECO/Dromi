@@ -1,0 +1,5 @@
+def windawk():
+    set_window_size(600,400)
+    set_window_title("Prova Interfaccia")
+    h1("windawk test")
+    dr.init()
