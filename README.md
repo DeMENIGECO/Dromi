@@ -1,4 +1,4 @@
-# Dromi 1.0
+# Dromi 1.0.0
 _Go to PC's Dromi!_
 ## Esempio di codice
 Ecco un esempio di codice:
@@ -73,3 +73,10 @@ windawk.windawk()
 
 - windawk
 - oTst
+
+## Installa
+
+
+| Versione | Installa        |
+|:--------:|:---------------|
+| 1.0.0    | Fra poco il link|
