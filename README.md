@@ -1,7 +1,28 @@
 # Dromi 1.0.0
 _Go to PC's Dromi!_
+
+## Visualizza i comandi
+Digita nel terminale:
+
+```Bash
+dromi.exe
+```
+e dovrebbe apparire:
+
+```Output
+Uso:
+ dromi.exe file.dr
+ dromi.exe --mdl pip install nome_modulo
+ dromi.exe --mdl pip list
+ dromi.exe --mdl pip remove nome_modulo
+
+Esempi:
+ dromi.exe example.dr
+ dromi.exe --mdl pip install windawk
+```
+
 ## Esempio di codice
-Ecco un esempio di codice:
+Ecco un esempio di codice: (fai un file `test.dr`)
 
 ```dromi
 set_window_size(600,400)
@@ -13,49 +34,37 @@ button("Cliccami")
 dr.init()
 ```
 
-## Eseguire files
+poi nel terminale digita:
 
-Se avete la versione in .py, allora andate nella cartella di dromi nel terminale e digitate:
 ```Bash
-python dromi.py nomefile.dr
+dromi.exe test.dr
 ```
 
-ma in .exe:
-```PowerShell
+## Eseguire file
+Digiate nel terminale:
+```Bash
 dromi.exe nomefile.dr
 ```
 
 ## Pacchetti
 
 ###### Installare
-Se avete la versione in .py, allora andate nella cartella di dromi nel terminale e digitate:
-```Bash
-python dromi.py --mdl pip install nomepacchetto
-```
+Digitate nel terminale:
 
-ma in .exe:
-```PowerShell
+```Bash
 dromi.exe --mdl pip install nomepacchetto
 ```
 
 ###### Visualizzarli tutti
-Se avete la versione in .py, allora andate nella cartella di dromi nel terminale e digitate:
-```Bash
-python dromi.py --mdl pip list
-```
 
-ma in .exe:
-```PowerShell
+Digitate nel terminale:
+```Bash
 dromi.exe --mdl pip list
 ```
 ###### Disintallare
-Se avete la versione in .py, allora andate nella cartella di dromi nel terminale e digitate:
-```Bash
-python dromi.py --mdl pip remove nomepachetto
-```
 
-ma in .exe:
-```PowerShell
+Digitate nel terminale::
+```Bash
 dromi.exe --mdl pip remove nomepachetto
 ```
 
