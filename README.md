@@ -1,4 +1,4 @@
-# Dromi 1.0.0
+# Dromi 1.0.1
 [![Passing](https://img.shields.io/badge/Test-passati-green)](https://github.com/DeMENIGECO/Dromi/blob/main/.github/SIGNIFICATES.md?sect=significato-badge-test-passati#significato-badge-test-passati)
 [![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
 
@@ -91,6 +91,7 @@ windawk.windawk()
 
 | Versione | Installa       | Supporto |
 |:--------:|:--------------:|:---------|
+| 1.0.1    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.1/dromi_installer_64bit_windows_1.0.1.exe)| Supportata |
 | 1.0.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.0/dromi_installer_64bit_windows_1.0.0.exe)| Supportata |
 
 ---
