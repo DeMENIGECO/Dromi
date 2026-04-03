@@ -2,7 +2,7 @@
 _Go to PC's Dromi!_
 
 ![Passing](https://img.shields.io/badge/Test-passati-green)
-[![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://DeMENIGECO/Dromi/discussions)
+[![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
 ## Visualizza i comandi
 Digita nel terminale:
 
