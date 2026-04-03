@@ -1,8 +1,10 @@
 # Dromi 1.0.0
-_Go to PC's Dromi!_
-
 [![Passing](https://img.shields.io/badge/Test-passati-green)](https://github.com/DeMENIGECO/Dromi/blob/main/.github/SIGNIFICATES.md?sect=significato-badge-test-passati#significato-badge-test-passati)
 [![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
+
+_Go to PC's Dromi!_
+
+
 ## Visualizza i comandi
 Digita nel terminale:
 
