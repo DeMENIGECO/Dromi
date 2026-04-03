@@ -91,7 +91,7 @@ windawk.windawk()
 
 | Versione | Installa       | Supporto |
 |:--------:|:--------------:|:---------|
-| 1.0.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releaes/download/1.0.0/dromi_installer_64bit_windows_1.0.0.exe)| Supportata |
+| 1.0.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.0/dromi_installer_64bit_windows_1.0.0.exe)| Supportata |
 
 ---
 
