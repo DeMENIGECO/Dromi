@@ -44,4 +44,4 @@ Puoi comunque aiutare Dromi segnalandoci problemi o suggerimenti.
 2. Clicca su New Issue.
 3. Usa un template o usa un issue vuoto
 4. 
-Ogni segnalazione ci aiuta a rendere Dromi migliore! 💛
+Ogni segnalazione ci aiuta a rendere Dromi migliore! 💚
