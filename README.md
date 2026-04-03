@@ -89,6 +89,14 @@ windawk.windawk()
 ## Installa
 
 
-| Versione | Installa        |
-|:--------:|:---------------|
-| 1.0.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.0/dromi_installer_64bit_windows_1.0.0.exe)|
+| Versione | Installa       | Supporto |
+|:--------:|:--------------:|:---------|
+| 1.0.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releaes/download/1.0.0/dromi_installer_64bit_windows_1.0.0.exe)| Supportata |
+
+---
+
+<p align="center">
+  <img width="100" height="100" alt="dromi-icon" src="https://github.com/user-attachments/assets/e7766418-7818-402f-81e7-8703cb08a264" /><br>
+  <strong>Dromi Softwares</strong><br>
+  <sub>© 2026 DomeniGeco. Tutti i diritti riservati.</sub>
+</p>
