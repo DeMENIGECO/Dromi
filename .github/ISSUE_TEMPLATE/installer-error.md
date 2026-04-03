@@ -29,5 +29,7 @@ Cosa ti aspettavi che succedesse?
 ## ❌ Comportamento effettivo
 Cosa è successo?
 
+---
+
 ## 📜 Log o errori
 Incolla log, errori, screenshot o altro per renderlo chiaro 
