@@ -17,7 +17,7 @@ Descrivi il problema in modo chiaro
 ---
 
 ## 🔁 Passaggi per riprodurre il problema
-Cosa fai per prendere il problema?
+Come si verifica il problema?
 
 ---
 
@@ -26,7 +26,7 @@ Cosa ti aspettavi che succedesse?
 
 ---
 
-## ❌ Comportamento successo
+## ❌ Comportamento effettivo
 Cosa è successo?
 
 ## 📜 Log o errori
