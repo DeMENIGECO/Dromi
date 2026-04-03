@@ -44,6 +44,14 @@ poi nel terminale digita:
 dromi.exe test.dr
 ```
 
+## Andare nella REPL
+Digitate nel terminale:
+```Bash
+dromi.exe --mdl repl
+```
+
+Per aprire la REPL.
+
 ## Eseguire file
 Digiate nel terminale:
 ```Bash
