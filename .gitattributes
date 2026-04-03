@@ -4,8 +4,5 @@
 # non mette nella zip il README
 README.md export-ignore
 
-# non mette nella zip la LICENZA 
-LICENSE export-ignore
-
 # non mette nella zip la cartella .github, che serve solo a GitHub
 .github/ export-ignore
