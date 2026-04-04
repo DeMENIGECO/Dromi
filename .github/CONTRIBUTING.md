@@ -50,3 +50,5 @@ Oppure puoi discurre nelle Discussions:
 1. Assicurati di avere un account GitHub
 2. Vai alla pagina [Discussions](https://github.com/DeMENIGECO/Dromi/discussions)
 3. Inizia a discurre!
+
+Anche una dissussione migliora Dromi! 💚
