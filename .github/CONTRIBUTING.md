@@ -43,5 +43,10 @@ Puoi comunque aiutare Dromi segnalandoci problemi o suggerimenti.
 1. Vai alla pagina [Issues](https://github.com/DeMENIGECO/Dromi/issues) di Dromi su GitHub.
 2. Clicca su New Issue.
 3. Usa un template o usa un issue vuoto
-4. 
 Ogni segnalazione ci aiuta a rendere Dromi migliore! 💚
+
+Oppure puoi discurre nelle Discussions:
+
+1. Assicurati di avere un account GitHub
+2. Vai alla pagina [Discussions](https://github.com/DeMENIGECO/Dromi/discussions)
+3. Inizia a discurre!
