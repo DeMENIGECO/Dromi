@@ -130,6 +130,13 @@ windawk.windawk()
 
 ---
 
+## Gruppo ChatGPT
+Partecipa per approfindimento, suggerimenti e altro:
+
+👉 https://demenigeco.github.io/githubpages/r/chatgpt/group-69d14df0f5848199b6c6e78a2d5ee867.html
+
+---
+
 <p align="center">
   <img width="100" height="100" alt="dromi-icon" src="https://github.com/user-attachments/assets/e7766418-7818-402f-81e7-8703cb08a264" /><br>
   <strong>Dromi Softwares</strong><br>
