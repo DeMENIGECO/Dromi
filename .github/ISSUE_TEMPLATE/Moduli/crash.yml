@@ -1,0 +1,110 @@
+name: 💥 Crash Report
+description: Segnala un crash di Dromi
+title: "[CRASH] "
+labels: ["bug", "crash"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💥 **Segnalazione Crash Dromi**
+        
+        Compila tutti i campi per aiutarci a capire e risolvere il problema.
+
+  - type: input
+    id: short_description
+    attributes:
+      label: Descrizione breve
+      description: Una frase veloce sul problema
+      placeholder: es. Crash quando apro un file .dr
+    validations:
+      required: true
+
+  - type: textarea
+    id: long_description
+    attributes:
+      label: Descrizione dettagliata
+      description: Spiega bene cosa stavi facendo prima del crash
+      placeholder: |
+        Stavo facendo...
+        Poi ho cliccato...
+        E Dromi è crashato...
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Codice che causa l'errore
+      description: Incolla il codice che ha causato il crash (se presente)
+      render: shell
+      placeholder: |
+        # Incolla qui il codice che da problemi
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Cosa è successo
+      description: Descrivi il comportamento reale
+      placeholder: L'app si è chiusa improvvisamente...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Cosa ti aspettavi
+      description: Cosa dovrebbe succedere invece?
+      placeholder: Il file dovrebbe aprirsi senza problemi...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log / errori
+      description: Incolla eventuali log o messaggi di errore
+      render: shell
+      placeholder: |
+        Error: ...
+        Stack trace: ...
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Versione di Dromi
+      description: Inserisci la versione
+      placeholder: es. 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Sistema operativo
+      description: Seleziona il tuo sistema
+      options:
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot / immagini
+      description: Trascina qui immagini o screenshot
+      placeholder: Puoi allegare immagini trascinandole qui
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Altro
+      description: Qualsiasi altra informazione utile
+      placeholder: Dettagli extra...
