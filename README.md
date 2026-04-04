@@ -4,6 +4,7 @@
 
 _Go to PC's Dromi!_
 
+---
 
 ## Visualizza i comandi
 Digita nel terminale:
@@ -30,6 +31,8 @@ Esempi:
 > - Se `dromi` funziona, usalo al posto di `dromi.exe` in tutta la repository.
 > - Se non funziona neanche `dromi`, prova a reinstallare Dromi.
 
+---
+
 ## Esempio di codice
 Ecco un esempio di codice: (fai un file `test.dr`)
 
@@ -49,6 +52,8 @@ poi nel terminale digita:
 dromi.exe test.dr
 ```
 
+---
+
 ## Andare nella REPL
 Digitate nel terminale:
 ```Bash
@@ -57,11 +62,14 @@ dromi.exe --mdl repl
 
 Per aprire la REPL.
 
+---
+
 ## Eseguire file
 Digiate nel terminale:
 ```Bash
 dromi.exe nomefile.dr
 ```
+---
 
 ## Pacchetti
 
@@ -94,10 +102,15 @@ from mdl import windawk
 
 windawk.windawk()
 ```
+
+---
+
 ## Moduli Preinstalalti
 
 - windawk
 - oTst
+
+---
 
 ## Installa
 
