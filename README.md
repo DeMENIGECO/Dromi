@@ -122,7 +122,7 @@ windawk.windawk()
 
 > [!WARNING]
 > - Dopo l'installazione, riavvia il terminale per aggiornare il PATH.
-> - Infatti Windows per trovare dromi e altri programmi usa la variabile utente `Path`
+> - Infatti Windows per trovare Dromi e altri programmi usa la variabile utente `Path`
 
 ---
 
