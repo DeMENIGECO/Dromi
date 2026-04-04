@@ -26,9 +26,9 @@ Esempi:
 ```
 
 > [!TIP]
-> - Se il comando `dromi.exe` non funziona, prova il comando `dromi`.
-> - Se il comando `dromi` funziona, ovunque in questa repository ci sia scritto `dromi.exe` usa `dromi`.
-> - Se anche con `dromi` non funziona, prova a reinstallare Dromi.
+> - Se il comando "dromi.exe" non funziona, prova "dromi".
+> - Se "dromi" funziona, usalo al posto di "dromi.exe" in tutta la repository.
+> - Se non funziona neanche "dromi", prova a reinstallare Dromi.
 
 ## Esempio di codice
 Ecco un esempio di codice: (fai un file `test.dr`)
