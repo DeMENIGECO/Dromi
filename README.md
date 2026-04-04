@@ -25,6 +25,11 @@ Esempi:
  dromi.exe --mdl pip install windawk
 ```
 
+> [!TIP]
+> - Se il comando `dromi.exe` non funziona, prova il comando `dromi`.
+> - Se il comando `dromi` funziona, ovunque in questa repository ci sia scritto `dromi.exe` usa `dromi`.
+> - Se anche con `dromi` funziona, prova a reinstallare Dromi.
+
 ## Esempio di codice
 Ecco un esempio di codice: (fai un file `test.dr`)
 
