@@ -107,6 +107,10 @@ windawk.windawk()
 | 1.0.1    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.1/dromi_installer_64bit_windows_1.0.1.exe)| Supportata |
 | 1.0.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.0/dromi_installer_64bit_windows_1.0.0.exe)| Supportata |
 
+> [!WARNING]
+> - Dopo l'installazione, riavvia il terminale per aggiornare il PATH.
+> - Infatti Windows per trovare dromi e altri programmi usa la variabile utente `Path`
+
 ---
 
 <p align="center">
