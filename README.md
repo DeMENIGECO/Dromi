@@ -29,7 +29,8 @@ Esempi:
 > [!TIP]
 > - Se il comando `dromi.exe` non funziona, prova `dromi`.
 > - Se `dromi` funziona, usalo al posto di `dromi.exe` in tutta la repository.
-> - Se non funziona neanche `dromi`, prova a reinstallare Dromi.
+> - Se non funziona neanche `dromi`, prova a reinstallare Dromi o fai il prossimo suggerimento.
+> - Prova a usare `dromi` e poi la versione installata, ad esempio per la 1.0.3 usa `dromi103` (Funziona negli installer della 1.0.3+)
 
 ---
 
