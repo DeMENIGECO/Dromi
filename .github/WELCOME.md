@@ -22,3 +22,11 @@ L’idea è nata per avere un linguaggio più facile rispetto ai metodi tradizio
 
 ## 📖 README completo
 👉 [Vai al README completo](https://github.com/DeMENIGECO/Dromi/tree/main/README.md)
+
+---
+
+<p align="center">
+  <img width="100" height="100" alt="dromi-icon" src="https://github.com/user-attachments/assets/e7766418-7818-402f-81e7-8703cb08a264" /><br>
+  <strong>Dromi Softwares</strong><br>
+  <sub>© 2026 DomeniGeco. Tutti i diritti riservati.</sub>
+</p>
