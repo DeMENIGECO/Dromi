@@ -1,0 +1,35 @@
+name: "➕ Altro"
+description: "Se i template disponibili non vanno per l'Issue, usa questo"
+title: "[ALTRO] Breve descrizione"
+labels: ["other"]
+assignees: []
+
+body:
+  - type: input
+    id: issue_title
+    attributes:
+      label: "Titolo dell'Issue"
+      description: "Breve descrizione del problema o richiesta"
+      placeholder: "Ad esempio: richiesta nuova funzionalità o bug particolare"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Descrizione dettagliata"
+      description: "Descrivi il problema, richiesta o commento in modo chiaro"
+      placeholder: |
+        Spiega cosa stavi facendo, cosa ti aspettavi e cosa è successo realmente.
+        Puoi includere anche link, screenshot o esempi di codice.
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Note aggiuntive"
+      description: "Qualsiasi altra informazione utile"
+      placeholder: "Dettagli extra..."
+    validations:
+      required: false
