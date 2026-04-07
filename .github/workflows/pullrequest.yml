@@ -7,13 +7,16 @@ on:
 permissions:
   contents: write
 
+
 jobs:
   log-pr:
     runs-on: ubuntu-latest
 
     steps:
       - name: Clona repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Crea file PR
         run: |
@@ -28,10 +31,10 @@ jobs:
           echo "Autore: ${{ github.actor }}" >> $filename
           echo "Data: $(date)" >> $filename
 
-      - name: Commit e push
+      - name: Commit e push su main
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add .github/prs/
           git commit -m "Nuova PR loggata" || echo "Niente da committare"
-          git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          git push origin main
