@@ -1,4 +1,4 @@
-name: "⚙️ Problema con l'Installer 2"
+name: "⚙️ Problema con l'Installer"
 description: "Segnala un problema durante l'installazione di Dromi"
 title: "[INSTALLER] Breve descrizione"
 labels: ["installer", "bug"]
