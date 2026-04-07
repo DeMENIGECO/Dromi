@@ -21,14 +21,10 @@ body:
       label: "Tipologia di dati coinvolti"
       description: "Seleziona i dati interessati dal problema"
       options:
-        - label: "File locali dell’utente"
-          value: "local_files"
-        - label: "Informazioni personali"
-          value: "personal_info"
-        - label: "Log o dati di esecuzione"
-          value: "logs"
-        - label: "Altro (specificare)"
-          value: "other"
+        - "File locali dell’utente"
+        - "Informazioni personali"
+        - "Log o dati di esecuzione"
+        - "Altro (specificare)"
     validations:
       required: true
 
