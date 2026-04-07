@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iniziare</title>
+    <style>
+        /* Stile generale */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #2e7d32;
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #1b5e20;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #2e7d32;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        pre {
+            background-color: #e0f2f1;
+            border-left: 5px solid #2e7d32;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        ul {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li a {
+            display: block;
+            text-decoration: none;
+            background-color: #2e7d32;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+
+        li a:hover {
+            background-color: #1b5e20;
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+    <h1>Come iniziare</h1>
+    <p>E' possibile avere più supporto online del passo 1. <a href="https://github.com/DeMENIGECO/Dromi/wiki/Installare-Dromi/">Vai al wiki per il passo 1</a></p>
+    <p>E' possibile avere più supporto online del passo 2. <a href="https://github.com/DeMENIGECO/Dromi/wiki/fare-la-prima-GUI-con-Dromi">Vai al wiki per il passo 2</a></p>
+
+    <h1>Passo 1: Installare Dromi</h1>
+    <p>Andate agli <a href="https://github.com/DeMENIGECO/Dromi/blob/main/README.md?sect=installa#installa">installer</a> e scaricate l'ultima versione per le vostre specifiche.</p>
+    <p>Una volta scaricato, eseguite l'installer e seguite le istruzioni. Dromi è disponibile per Windows.</p>
+    <p>Se avete eseguito bene le istruzioni, Dromi sarà installato e pronto all'uso, ma per verificare, digitate nel terminale il comando <code>dromi.exe</code> e verificate se funziona.</p>
+
+    <h2>Passo 2: il primo file</h2>
+    <p>Per creare un file Dromi, è sufficiente creare un file di testo con estensione <code>.dr</code>. Ad esempio, potete creare un file chiamato <code>test.dr</code>.</p>
+    <p>Una volta creato, potete aprirlo con un editor di testo e scrivere il vostro primo script Dromi. Scriveteci dentro:</p>
+    <pre><code>set_window_size(600,400) 
+set_window_title("Prova Interfaccia") 
+h1("Benvenuto in Dromi GUI") 
+h2("Test sottotitolo") 
+p("Questa è una label normale") 
+button("Cliccami") 
+dr.init()</code></pre>
+
+    <p>Salvatelo, e nel terminale eseguite il comando <code>dromi.exe test.dr</code> nella cartella dello script per eseguire lo script.</p>
+
+    <p>Se tutto è andato bene, dovrebbe aprirsi una finestra con il titolo "Prova Interfaccia" e all'interno i vari elementi che avete creato.</p>
+
+    <h2>Prossima Guida</h2>
+    <ul>
+        <li><a href="mdls.html">Usare i moduli</a></li>
+    </ul>
+</body>
+</html>

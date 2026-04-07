@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moduli</title>
+    <style>
+        /* Stile generale */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #2e7d32;
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #1b5e20;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #2e7d32;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        pre {
+            background-color: #e0f2f1;
+            border-left: 5px solid #2e7d32;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        img {
+            display: block;
+            max-width: 90%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li a {
+            display: block;
+            text-decoration: none;
+            background-color: #2e7d32;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+
+        li a:hover {
+            background-color: #1b5e20;
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+    <h1>Usare i moduli</h1>
+    <p>E' possibile avere più supporto online per questa pagina. <a href="https://github.com/DeMENIGECO/Dromi/wiki/Installare-il-primo-pacchetto-con-pip">Vai al wiki per questa pagina</a></p>
+
+    <h1>Passo 1: Installare il primo pacchetto con pip e usarlo</h1>
+    <p>Dromi supporta moduli esterni, installabili tramite DromiPip, oppure per la shell, pip.</p>
+    <p>Per installare un pacchetto, è sufficiente aprire il terminale e digitare il comando <code>dromi.exe --mdl pip install nome_pacchetto</code>. Ad esempio, per installare il pacchetto "windawk", è sufficiente digitare <code>dromi.exe --mdl pip install windawk</code>.</p>
+    <p>Installiamo il primo pacchetto:</p>
+    <pre><code>dromi.exe --mdl pip install windawk</code></pre>
+    <p>Se tutto è andato bene, dovrebbe essere installato il pacchetto e pronto all'uso.</p>
+    <p>Create un file <code>windawk.dr</code> e metteteci:</p>
+    <pre><code>from mdl import windawk 
+
+windawk.windawk()</code></pre>
+    <p>Salvatelo, e nel terminale eseguite il comando <code>dromi.exe windawk.dr</code> nella cartella dello script per eseguire lo script.</p>
+    <p>Se tutto è andato bene, dovrebbe aprirsi questa finestra:</p>
+    <img width="748" height="533" alt="image" src="https://github.com/user-attachments/assets/482d023f-4149-42d4-9d69-c4ee4bead7e6" />
+
+    <h2>Prossima Guida</h2>
+    <ul>
+        <li><a href="trblshooting.html">Risoluzione dei problemi</a></li>
+    </ul>
+</body>
+</html>
