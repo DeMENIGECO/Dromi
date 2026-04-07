@@ -1,0 +1,75 @@
+name: "⚙️ Problema con l'Installer 2"
+description: "Segnala un problema durante l'installazione di Dromi"
+title: "[INSTALLER] Breve descrizione"
+labels: ["installer", "bug"]
+assignees: []
+
+body:
+  - type: input
+    id: installer_version
+    attributes:
+      label: "Versione da installare"
+      description: "Indica la versione di Dromi che stai cercando di installare"
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: "Sistema operativo"
+      description: "Seleziona il sistema operativo in uso"
+      options:
+        - "Windows 10"
+        - "Windows 11"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_description
+    attributes:
+      label: "Descrizione del problema"
+      description: "Descrivi il problema in modo chiaro"
+      placeholder: "Ad esempio: l'installer non parte o si blocca..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: "Passaggi per riprodurre il problema"
+      description: "Come si verifica il problema passo passo"
+      placeholder: |
+        1. Avvia l'installer
+        2. Seleziona la cartella di installazione
+        3. Clicca su 'Installa'
+        4. Nota eventuali errori
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Comportamento previsto"
+      description: "Cosa ti aspettavi che succedesse?"
+      placeholder: "L'installer avrebbe dovuto completare l'installazione senza errori."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: "Comportamento effettivo"
+      description: "Cosa è successo realmente?"
+      placeholder: "L'installer si blocca con errore XYZ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Log / Errori"
+      description: "Incolla log, errori, screenshot o altri dettagli utili"
+      placeholder: "Error: ..."
+    validations:
+      required: false
