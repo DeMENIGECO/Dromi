@@ -8,14 +8,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Descrizione del problema
-        Quale file, modulo, o configurazione non funziona con Dromi?
+        "## Descrizione del problema
+        Quale file, modulo, o configurazione non funziona con Dromi?"
 
   - type: textarea
     id: expected_behavior
     attributes:
-      label: Comportamento atteso
-      description: Cosa ti aspettavi che Dromi facesse con questo file o configurazione?
+      label: "Comportamento atteso"
+      description: "Cosa ti aspettavi che Dromi facesse con questo file o configurazione?"
       placeholder: "Descrivi cosa ti aspettavi"
     validations:
       required: true
@@ -23,8 +23,8 @@ body:
   - type: textarea
     id: actual_behavior
     attributes:
-      label: Comportamento reale
-      description: Cosa succede realmente quando provi ad usarlo? Errori, crash o comportamenti strani.
+      label: "Comportamento reale"
+      description: "Cosa succede realmente quando provi ad usarlo? Errori, crash o comportamenti strani."
       placeholder: "Descrivi il comportamento reale"
     validations:
       required: true
@@ -32,8 +32,8 @@ body:
   - type: input
     id: dromi_version
     attributes:
-      label: Versione Dromi
-      description: Inserisci la versione di Dromi
+      label: "Versione Dromi"
+      description: "Inserisci la versione di Dromi"
       placeholder: "es. 1.0.0"
     validations:
       required: true
@@ -41,19 +41,19 @@ body:
   - type: dropdown
     id: os
     attributes:
-      label: Sistema operativo
-      description: Seleziona il tuo sistema operativo
+      label: "Sistema operativo"
+      description: "Seleziona il tuo sistema operativo"
       options:
-        - Windows 10
-        - Windows 11
+        - "Windows 10"
+        - "Windows 11"
     validations:
       required: true
 
   - type: input
     id: module_version
     attributes:
-      label: Versione modulo/software coinvolto
-      description: Versione del file, modulo o software coinvolto (se applicabile)
+      label: "Versione modulo/software coinvolto"
+      description: "Versione del file, modulo o software coinvolto (se applicabile)"
       placeholder: "es. 2.3.1"
     validations:
       required: false
@@ -61,32 +61,32 @@ body:
   - type: textarea
     id: reproduction_steps
     attributes:
-      label: Passi per riprodurre
-      description: Come riprodurre l'incompatibilita' passo passo
+      label: "Passi per riprodurre"
+      description: "Come riprodurre l'incompatibilità passo passo"
       placeholder: |
-        1. Apri Dromi
+        "1. Apri Dromi
         2. Carica il file o modulo incompatibile
         3. Esegui l'azione
-        4. Nota l'errore o comportamento anomalo
+        4. Nota l'errore o comportamento anomalo"
     validations:
       required: true
 
   - type: textarea
     id: logs_screenshots
     attributes:
-      label: Log / Screenshot
-      description: Allega log, errori o screenshot utili per capire l'incompatibilita'.
+      label: "Log / Screenshot"
+      description: "Allega log, errori o screenshot utili per capire l'incompatibilità."
       placeholder: |
-        Error: ...
-        Stack trace: ...
+        "Error: ...
+        Stack trace: ..."
     validations:
       required: false
 
   - type: textarea
     id: extra
     attributes:
-      label: Note aggiuntive
-      description: Qualsiasi informazione extra: workaround conosciuti, file di esempio, ecc.
+      label: "Note aggiuntive"
+      description: "Qualsiasi informazione extra: workaround conosciuti, file di esempio, ecc."
       placeholder: "Dettagli extra..."
     validations:
       required: false
