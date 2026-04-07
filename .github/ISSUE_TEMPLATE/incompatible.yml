@@ -62,12 +62,12 @@ body:
     id: reproduction_steps
     attributes:
       label: Passi per riprodurre
-      description: Come riprodurre l'incompatibilità passo passo
+      description: Come riprodurre l'incompatibilita' passo passo
       placeholder: |
         1. Apri Dromi
         2. Carica il file o modulo incompatibile
-        3. Esegui l’azione
-        4. Nota l’errore o comportamento anomalo
+        3. Esegui l'azione
+        4. Nota l'errore o comportamento anomalo
     validations:
       required: true
 
@@ -75,7 +75,7 @@ body:
     id: logs_screenshots
     attributes:
       label: Log / Screenshot
-      description: Allega log, errori o screenshot utili per capire l’incompatibilità
+      description: Allega log, errori o screenshot utili per capire l'incompatibilita'.
       placeholder: |
         Error: ...
         Stack trace: ...
