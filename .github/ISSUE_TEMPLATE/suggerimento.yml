@@ -1,0 +1,63 @@
+name: "💡 Suggerimento"
+description: "Suggerisci una nuova funzionalità o miglioramento per Dromi"
+title: "[FEATURE] Breve descrizione della richiesta"
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: "Descrizione"
+      description: "Scrivi una descrizione chiara e concisa del suggerimento o della nuova funzionalità"
+      placeholder: "Ad esempio: aggiungere supporto per esportare progetti in PDF"
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivazione"
+      description: "Perché questa funzionalità sarebbe utile? Quale problema risolve o miglioramento apporta?"
+      placeholder: "Ad esempio: permette agli utenti di condividere facilmente i progetti"
+    validations:
+      required: true
+
+  - type: textarea
+    id: example_mockup
+    attributes:
+      label: "Esempio / Mockup"
+      description: "Se possibile, aggiungi esempi, screenshot o codice di esempio che mostrino come dovrebbe funzionare"
+      placeholder: "Ad esempio: mockup dell'interfaccia o snippet di codice"
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected_impact
+    attributes:
+      label: "Impatto previsto"
+      description: "Quale sarebbe l’effetto sul comportamento di Dromi?"
+      placeholder: "Ad esempio: migliora esperienza utente, prestazioni o compatibilità"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: "Note aggiuntive"
+      description: "Altre informazioni utili o commenti aggiuntivi"
+      placeholder: "Dettagli extra..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: suggestion_checklist
+    attributes:
+      label: "Checklist suggerimento"
+      description: "Conferma di aver completato le verifiche principali"
+      options:
+        - label: "Ho verificato che la funzionalità non esiste già"
+        - label: "Ho fornito esempi chiari"
+        - label: "Ho spiegato perché questa funzionalità è utile"
+    validations:
+      required: true
