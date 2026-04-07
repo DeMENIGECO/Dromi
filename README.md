@@ -130,6 +130,11 @@ windawk.windawk()
 > - In entrambi i cawi, dopo l'installazione riavvia il terminale per aggiornare il PATH.
 > - Infatti Windows per trovare Dromi e altri programmi usa la variabile utente `Path`
 
+> [!TIP]
+> Nella 1.0.2 Abbiamo messo i Dromi Docs.
+> Per vederli, vai nel menu start, cerca nelle sezioni `Dromi <versione> Docs`.
+> Se installi più versioni, potrebbe esserci una cartella specifica "Dromi Docs" per racchiuderli. (Alcuni collegamenti potrebbero non avere l'icona)
+
 ---
 
 ## Gruppo ChatGPT
