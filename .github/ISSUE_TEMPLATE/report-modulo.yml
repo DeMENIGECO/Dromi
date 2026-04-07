@@ -1,0 +1,106 @@
+name: "⚠️ Unsafe Module Report"
+description: "Segnala un modulo o script potenzialmente pericoloso per Dromi"
+title: "[UNSAFE MODULE] Breve descrizione"
+labels: ["unsafe", "warning"]
+assignees: []
+
+body:
+  - type: input
+    id: module_name
+    attributes:
+      label: "Modulo o script segnalato"
+      description: "Nome e versione del modulo, o nome dello script potenzialmente pericoloso"
+      placeholder: "Es. moduloXYZ 2.1.0"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: risk_type
+    attributes:
+      label: "Tipo di rischio"
+      description: "Seleziona i rischi potenziali associati al modulo o script"
+      options:
+        - label: "Corruzione dati"
+        - label: "Accesso a file sensibili"
+        - label: "Esecuzione codice non sicuro"
+        - label: "Altro (specificare)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Comportamento atteso"
+      description: "Cosa ti aspettavi che Dromi facesse con questo modulo?"
+      placeholder: "Ad esempio: modulo caricato in sicurezza senza modificare altri file"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: "Comportamento reale"
+      description: "Cosa succede realmente quando viene eseguito il modulo?"
+      placeholder: "Ad esempio: file cancellati, accesso non autorizzato a cartelle"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: "Passi per riprodurre"
+      description: "Passaggi dettagliati per far apparire il comportamento pericoloso"
+      placeholder: |
+        1. Apri Dromi
+        2. Carica il modulo/script
+        3. Esegui l’azione
+        4. Nota il comportamento pericoloso o indesiderato
+    validations:
+      required: true
+
+  - type: input
+    id: dromi_version
+    attributes:
+      label: "Versione Dromi"
+      description: "Inserisci la versione di Dromi"
+      placeholder: "es. 1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: "Sistema operativo"
+      description: "Seleziona il sistema operativo usato"
+      options:
+        - label: "Windows 10"
+        - label: "Windows 11"
+    validations:
+      required: true
+
+  - type: input
+    id: module_version
+    attributes:
+      label: "Versione del modulo (se applicabile)"
+      description: "Indica la versione del modulo o script segnalato"
+      placeholder: "Es. 2.1.0"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs_screenshots
+    attributes:
+      label: "Log / Screenshot"
+      description: "Allega log, errori o screenshot che mostrino il comportamento pericoloso"
+      placeholder: "Ad esempio: estratto log, screenshot dell'errore"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Note aggiuntive"
+      description: "Altre informazioni utili o workaround temporanei"
+      placeholder: "Dettagli extra..."
+    validations:
+      required: false
