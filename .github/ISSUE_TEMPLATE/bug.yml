@@ -28,7 +28,7 @@ body:
     attributes:
       label: Codice che da l'errore
       description: Incolla il codice che fa apparire il bug
-      render: shell
+      render: textarea
       placeholder: |
         form mdl import akdir
         akdir.copydir("sns", "snscopy") # Qui
