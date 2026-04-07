@@ -1,0 +1,110 @@
+name: "🔒 Privacy Report"
+description: "Segnala problemi o rischi legati alla privacy in Dromi"
+title: "[PRIVACY] Breve descrizione"
+labels: ["privacy"]
+assignees: []
+
+body:
+  - type: textarea
+    id: problem_description
+    attributes:
+      label: "Descrizione del problema"
+      description: "Descrivi chiaramente il problema o rischio di privacy riscontrato in Dromi"
+      placeholder: |
+        Ad esempio: Dati personali salvati in chiaro, log inviati a server esterni...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: data_type
+    attributes:
+      label: "Tipologia di dati coinvolti"
+      description: "Seleziona i dati interessati dal problema"
+      options:
+        - label: "File locali dell’utente"
+          value: "local_files"
+        - label: "Informazioni personali"
+          value: "personal_info"
+        - label: "Log o dati di esecuzione"
+          value: "logs"
+        - label: "Altro (specificare)"
+          value: "other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Comportamento atteso"
+      description: "Come dovrebbe comportarsi Dromi per proteggere la privacy dei dati?"
+      placeholder: "Ad esempio: dati salvati solo localmente, nessuna trasmissione non autorizzata"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: "Comportamento reale"
+      description: "Cosa succede realmente? Dati inviati, salvati o esposti in maniera non sicura?"
+      placeholder: "Ad esempio: file inviati automaticamente a un server remoto"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: "Passi per riprodurre"
+      description: "Passi dettagliati per far apparire il problema o rischio"
+      placeholder: |
+        1. Apri Dromi
+        2. Esegui l’azione o carica i file interessati
+        3. Nota il comportamento che rappresenta un rischio
+    validations:
+      required: true
+
+  - type: input
+    id: dromi_version
+    attributes:
+      label: "Versione Dromi"
+      description: "Inserisci la versione di Dromi"
+      placeholder: "es. 1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: "Sistema operativo"
+      description: "Seleziona il sistema operativo usato"
+      options:
+        - "Windows 10"
+        - "Windows 11"
+    validations:
+      required: true
+
+  - type: input
+    id: modules_involved
+    attributes:
+      label: "Moduli o plugin coinvolti"
+      description: "Se applicabile, inserisci moduli o plugin coinvolti nel problema"
+      placeholder: "Ad esempio: modulo XYZ, plugin ABC"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs_screenshots
+    attributes:
+      label: "Log / Screenshot"
+      description: "Allega eventuali screenshot, log o file utili per capire il problema"
+      placeholder: "Ad esempio: screenshot del comportamento non sicuro, estratto log"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Note aggiuntive"
+      description: "Suggerimenti su come mitigare il rischio o altre informazioni utili"
+      placeholder: "Dettagli extra..."
+    validations:
+      required: false
