@@ -15,19 +15,19 @@ body:
     validations:
       required: true
 
-- type: checkboxes
-  id: data_type
-  attributes:
-    label: "Tipologia di dati coinvolti"
-    description: "Seleziona i dati interessati dal problema"
-    options:
-      - label: "File locali dell’utente"
-      - label: "Informazioni personali"
-      - label: "Log o dati di esecuzione"
-      - label: "Altro (specificare)"
-  validations:
-    required: true
-    
+  - type: checkboxes
+    id: data_type
+    attributes:
+      label: "Tipologia di dati coinvolti"
+      description: "Seleziona i dati interessati dal problema"
+      options:
+        - label: "File locali dell’utente"
+        - label: "Informazioni personali"
+        - label: "Log o dati di esecuzione"
+        - label: "Altro (specificare)"
+    validations:
+      required: true
+
   - type: textarea
     id: expected_behavior
     attributes:
@@ -73,8 +73,8 @@ body:
       label: "Sistema operativo"
       description: "Seleziona il sistema operativo usato"
       options:
-        - "Windows 10"
-        - "Windows 11"
+        - label: "Windows 10"
+        - label: "Windows 11"
     validations:
       required: true
 
