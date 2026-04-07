@@ -1,5 +1,5 @@
-name: 🐞 Bug Report
-description: Segnala un problema o un malfunzionamento in Dromi
+name: "🐞 Bug Report"
+description: "Segnala un problema o un malfunzionamento in Dromi"
 title: "[BUG] Breve descrizione del problema"
 labels: ["bug"]
 assignees: []
