@@ -30,10 +30,7 @@ body:
       description: Incolla il codice che fa apparire il bug
       render: shell
       placeholder: |
-        ```Dromi
-        form mdl import akdir
-        akdir.copydir("sns", "snscopy") # Qui
-        ```
+        placeholder: "```Dromi\nform mdl import akdir\nakdir.copydir(\"sns\", \"snscopy\") # Qui\n```"
     validations:
       required: false
 
