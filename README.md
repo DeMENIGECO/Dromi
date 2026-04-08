@@ -1,4 +1,4 @@
-# Dromi 1.0.2
+# Dromi 1.0.3
 [![Passing](https://img.shields.io/badge/Test-passati-green)](https://github.com/DeMENIGECO/Dromi/blob/main/.github/SIGNIFICATES.md?sect=Test-passati#test-passati)
 [![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
 
@@ -116,12 +116,13 @@ windawk.windawk()
 ## Installa
 
 ###### Ultima Versione
-👉 [Scarica l'ultima versione - Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.2/dromi_installer_64bit_windows_1.0.2.exe)
+👉 [Scarica l'ultima versione - Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.3/dromi_installer_64bit_windows_1.0.3.exe)
 
 ###### Oppure una versione specifica
 
 | Versione | Installa       | Supporto |
 |:--------:|:--------------:|:---------|
+| 1.0.3    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.3/dromi_installer_64bit_windows_1.0.3.exe)| Supportata | 
 | 1.0.2    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.2/dromi_installer_64bit_windows_1.0.2.exe)| Supportata |
 | 1.0.1    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.1/dromi_installer_64bit_windows_1.0.1.exe)| Supportata |
 | 1.0.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.0/dromi_installer_64bit_windows_1.0.0.exe)| Supportata |
