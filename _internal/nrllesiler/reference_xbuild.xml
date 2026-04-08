@@ -1,0 +1,23 @@
+<references>
+    <xbuild version="1">
+        This is the xbuild references.
+        <xbuild-reference number="1" type="reference">
+            XBUILD REFERENCE 1
+
+            This is the first version of xbuild.
+            Is based on Dromi GUI core and Dromi uses functionallyon x-build.
+        </xbuild-reference>
+
+        <xbuild-reference number="2" type="reference">
+            XBUILD REFERENCE 2
+
+            This x-build not is part of Dromi GUI's, but uses by Dromi.
+        </xbuild-reference>
+
+        <xbuild-reference number="3" type="disclaimer">
+            XBUILD REFERENCE 3
+
+            This is a disclaimer for x-build.
+        </xbuild-reference>
+    </xbuild>
+</references>
