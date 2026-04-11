@@ -1,0 +1,43 @@
+name: PR Tokens Generator
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+
+  generate_and_register:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clona Repo
+        uses: actions/checkout@v4
+
+      - name: Genera token
+        id: token_step
+        run: |
+          echo "Generazione token..."
+          oidc_token=$RANDOM
+          echo "oidc_token=$oidc_token" >> $GITHUB_OUTPUT
+          echo "Token Generato: $oidc_token"
+
+      - name: Crea file PR
+        run: |
+          echo "Workflow PULL REQUEST in corso"
+          mkdir -p .github/prs/oidc_tokens
+
+          filename=".github/prs/oidc_tokens/PR_OIDC_TOKEN_${{ github.event.pull_request.number }}.pr"
+
+          echo "NEW PULL REQUEST" > $filename
+          echo "TOKEN: ${{ steps.token_step.outputs.oidc_token }}" >> $filename
+
+      - name: Commit e push su main
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .github/prs/oidc_tokens
+          git commit -m "Token Creato" || echo "Niente da committare"
+          git push origin main
