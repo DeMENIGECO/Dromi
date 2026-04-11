@@ -133,8 +133,9 @@ windawk.windawk()
 
 > [!TIP]
 > Nella 1.0.2 Abbiamo messo i Dromi Docs.
-> Per vederli, vai nel menu start, cerca nelle sezioni `Dromi <versione> Docs`.
+> Per vederli, vai nel menu start, cerca nelle sezioni `Dromi 1.0.2 Docs`.
 > Se installi più versioni, potrebbe esserci una cartella specifica "Dromi Docs" per racchiuderli. (Alcuni collegamenti potrebbero non avere l'icona)
+> Nella 1.0.3 Abbiamo sostituito questi collegamenti on un'applicazione, di nome Dromi Docs, che trova i Docs di ogni versione da solo
 
 ---
 
