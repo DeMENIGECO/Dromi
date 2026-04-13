@@ -1,10 +1,15 @@
+<div align="center">
+
+<img width="100" height="100" alt="dromi-icon" src="https://github.com/user-attachments/assets/e7766418-7818-402f-81e7-8703cb08a264" />
+
 # Dromi 1.1.0
+
 [![Passing](https://img.shields.io/badge/Test-passati-green)](https://github.com/DeMENIGECO/Dromi/blob/main/.github/SIGNIFICATES.md?sect=Test-passati#test-passati)
 [![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
 
 _Go to PC's Dromi!_
 
----
+</div>
 
 ## Tabella dei contenuti
 
