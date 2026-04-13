@@ -4,21 +4,25 @@
 
 _Go to PC's Dromi!_
 
-**Tabella dei contenuti**
-- [Visualizza i comandi](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=visualizza-i-comandi#visualizza-i-comandi)
-- [Esempio di codice](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?esempio-di-codice#esempio-di-codice)
-- [Andare nella REPL](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=andare-nella-repl#andare-nella-repl)
-- [Eseguire file](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=eseguire-file#eseguire-file)
-- [Pacchetti](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=pacchetti#pacchetti)
-  - [Installare](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=installare#installare)
-  - [Visualizzarli tutti](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=visualizzarli-tutti#visualizzarli-tutti)
-  - [Disinstallare](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=disinstallare#disinstallare)
-  - [Usare i moduli installati](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=usare-i-moduli-installati#usare-i-moduli-installati)
- - [Moduli Preinstallati](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=moduli-preinstallati#moduli-preinstallati)
- - [Installa](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=installa#installa)
-   - [Ultima versione](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=ultima-versione#ultima-versione)
-   - [Oppure una versione specifica](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=oppure-una-versione-specifica#oppure-una-versione-specifica)
-- [Gruppo ChatGPT](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=gruppo-chatgpt#gruppo-chatgpt)
+---
+
+## Tabella dei contenuti
+
+- [Visualizza i comandi](#visualizza-i-comandi)
+- [Esempio di codice](#esempio-di-codice)
+- [Andare nella REPL](#andare-nella-repl)
+- [Eseguire file](#eseguire-file)
+- [Pacchetti](#pacchetti)
+  - [Installare](#installare)
+  - [Visualizzarli tutti](#visualizzarli-tutti)
+  - [Disinstallare](#disinstallare)
+  - [Usare i moduli installati](#usare-i-moduli-installati)
+- [Moduli Preinstallati](#moduli-preinstallati)
+- [Installa](#installa)
+  - [Ultima versione](#ultima-versione)
+  - [Oppure una versione specifica](#oppure-una-versione-specifica)
+- [Gruppo ChatGPT](#gruppo-chatgpt)
+
 ---
 
 ## Visualizza i comandi
@@ -102,7 +106,7 @@ Digitate nel terminale:
 ```Bash
 dromi.exe --mdl pip list
 ```
-### Disintallare
+### Disinstallare
 
 Digitate nel terminale::
 ```Bash
@@ -121,7 +125,7 @@ windawk.windawk()
 
 ---
 
-## Moduli Preinstalalti
+## Moduli Preinstallati
 
 - windawk
 - oTst
