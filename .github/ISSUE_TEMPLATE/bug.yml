@@ -10,7 +10,7 @@ body:
     attributes:
       label: Descrizione del problema
       description: Descrvi il problema in modo chiaro.
-      placheholder: |
+      placeholder: |
         Non va.../non funziona...
       validations:
         required: true
