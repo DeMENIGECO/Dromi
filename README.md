@@ -8,7 +8,7 @@ _Go to PC's Dromi!_
 
 ## Tabella dei contenuti
 
-- [Visualizza i comandi](#visualizza-i-comandi)
+- [🔜⭐ Visualizza i comandi](#visualizza-i-comandi)
 - [Esempio di codice](#esempio-di-codice)
 - [Andare nella REPL](#andare-nella-repl)
 - [Eseguire file](#eseguire-file)
@@ -21,7 +21,7 @@ _Go to PC's Dromi!_
 - [Installa](#installa)
   - [Ultima versione](#ultima-versione)
   - [Oppure una versione specifica](#oppure-una-versione-specifica)
-- [Gruppo ChatGPT](#gruppo-chatgpt)
+- [🆕 Gruppo ChatGPT](#gruppo-chatgpt)
 
 ---
 
