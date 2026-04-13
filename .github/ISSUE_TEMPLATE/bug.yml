@@ -5,11 +5,15 @@ labels: ["bug"]
 assignees: []
 
 body:
-  - type: markdown
+  - type: textarea
+    id: desc
     attributes:
-      value: |
-        ## Descrizione del problema
-        Una descrizione chiara e concisa del bug.
+      label: Descrizione del problema
+      description: Descrvi il problema in modo chiaro.
+      placheholder: |
+        Non va.../non funziona...
+      validations:
+        required: true
 
   - type: textarea
     id: code
