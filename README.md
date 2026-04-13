@@ -8,6 +8,7 @@ _Go to PC's Dromi!_
 
 ## Tabella dei contenuti
 
+- [Cos'è Dromi?](#cosè-dromi)
 - [Novità nella versione 1.1.0](#novità-nella-versione-110)
 - [🔄 Visualizza i comandi](#visualizza-i-comandi)
 - [Esempio di codice](#esempio-di-codice)
@@ -27,6 +28,10 @@ _Go to PC's Dromi!_
 
 ---
 
+## Cos'è Dromi?
+Dromi è un linguaggio per creare interfacce grafiche in modo semplice e veloce.
+
+---
 ## Novità nella versione 1.1.0
 
 - 🔄 Migliorata la sicurezza di PIP  
