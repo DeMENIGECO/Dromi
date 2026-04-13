@@ -1,0 +1,160 @@
+name: "🐞 Bug Report 2"
+description: "Segnala un problema o un malfunzionamento in Dromi"
+title: "[BUG] Breve descrizione del problema"
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: Descrizione del problema
+      description: Descrvi il problema in modo chiaro.
+      placheholder: |
+        Non va.../non funziona...
+      validations:
+        required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Codice che da l'errore
+      description: Incolla il codice che fa apparire il bug
+      placeholder: |
+        form mdl import akdir
+        akdir.copydir("sns", "snscopy") # Qui
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Comportamento atteso
+      description: Descrivi cosa ti aspettavi che accadesse
+      placeholder: Il comando avrebbe dovuto fare...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Comportamento attuale
+      description: Cosa succede realmente
+      placeholder: L'applicazione crasha / non fa nulla...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versione Dromi
+      description: Inserisci la versione di Dromi
+      placeholder: es. 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Sistema operativo
+      description: Seleziona il tuo sistema operativo
+      options:
+        - Windows 10
+        - Windows 11
+    validations:
+      required: true
+
+name: "🐞 Bug Report"
+description: "Segnala un problema o un malfunzionamento in Dromi"
+title: "[BUG] Breve descrizione del problema"
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Descrizione del problema
+        Una descrizione chiara e concisa del bug.
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Codice che da l'errore
+      description: Incolla il codice che fa apparire il bug
+      placeholder: |
+        '''Dromi
+        form mdl import akdir
+        akdir.copydir("sns", "snscopy") # Qui
+        '''
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Comportamento atteso
+      description: Descrivi cosa ti aspettavi che accadesse
+      placeholder: "Il comando avrebbe dovuto fare..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Comportamento attuale
+      description: Cosa succede realmente
+      placeholder: "L'applicazione crasha / non fa nulla..."
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versione Dromi
+      description: Inserisci la versione di Dromi
+      placeholder: "es. 1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Sistema operativo
+      description: Seleziona il tuo sistema operativo
+      options:
+        - "Windows 10"
+        - "Windows 11"
+    validations:
+      required: true
+
+  - type: textarea
+    id: other_software
+    attributes:
+      label: Altro software rilevante
+      description: Programmi o librerie installati che possono influire sul bug
+      placeholder: "Esempio: Python 3.12, Node.js..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs_screenshots
+    attributes:
+      label: Log / Screenshot
+      description: Allega eventuali log, messaggi di errore o screenshot
+      placeholder: |
+        ''' 
+        Error: ...
+        Stack trace: ...
+        '''
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Note aggiuntive
+      description: Qualsiasi altra informazione utile
+      placeholder: "Dettagli extra..."
+    validations:
+      required: false
