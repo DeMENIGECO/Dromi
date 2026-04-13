@@ -8,6 +8,7 @@ _Go to PC's Dromi!_
 
 ## Tabella dei contenuti
 
+- [Novità nella versione 1.1.0](#novità-nella-versione-110)
 - [🔄 Visualizza i comandi](#visualizza-i-comandi)
 - [Esempio di codice](#esempio-di-codice)
 - [Andare nella REPL](#andare-nella-repl)
@@ -23,6 +24,14 @@ _Go to PC's Dromi!_
   - [Ultima versione](#ultima-versione)
   - [Oppure una versione specifica](#oppure-una-versione-specifica)
 - [🆕 Gruppo ChatGPT](#gruppo-chatgpt)
+
+---
+
+## Novità nella versione 1.1.0
+
+- 🔄 Migliorata la sicurezza di PIP  
+- ⚙️ Ottimizzazioni generali  
+- 🐞 Correzione di bug minori  
 
 ---
 
