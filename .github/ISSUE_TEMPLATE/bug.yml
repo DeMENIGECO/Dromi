@@ -12,8 +12,8 @@ body:
       description: Descrvi il problema in modo chiaro.
       placeholder: |
         Non va.../non funziona...
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: code
