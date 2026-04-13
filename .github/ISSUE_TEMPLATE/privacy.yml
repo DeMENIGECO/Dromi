@@ -73,8 +73,8 @@ body:
       label: "Sistema operativo"
       description: "Seleziona il sistema operativo usato"
       options:
-        - label: "Windows 10"
-        - label: "Windows 11"
+        - "Windows 10"
+        - "Windows 11"
     validations:
       required: true
 
