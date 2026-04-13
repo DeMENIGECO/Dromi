@@ -4,6 +4,21 @@
 
 _Go to PC's Dromi!_
 
+**Tabella dei contenuti**
+- [Visualizza i comandi](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=visualizza-i-comandi#visualizza-i-comandi)
+- [Esempio di codice](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?esempio-di-codice#esempio-di-codice)
+- [Andare nella REPL](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=andare-nella-repl#andare-nella-repl)
+- [Eseguire file](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=eseguire-file#eseguire-file)
+- [Pacchetti](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=pacchetti#pacchetti)
+  - [Installare](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=installare#installare)
+  - [Visualizzarli tutti](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=visualizzarli-tutti#visualizzarli-tutti)
+  - [Disinstallare](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=disinstallare#disinstallare)
+  - [Usare i moduli installati](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=usare-i-moduli-installati#usare-i-moduli-installati)
+ - [Moduli Preinstallati](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=moduli-preinstallati#moduli-preinstallati)
+ - [Installa](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=installa#installa)
+   - [Ultima versione](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=ultima-versione#ultima-versione)
+   - [Oppure una versione specifica](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=oppure-una-versione-specifica#oppure-una-versione-specifica)
+- [Gruppo ChatGPT](https://github.com/DeMENIGECO/Dromi/tree/main/README.md?sect=gruppo-chatgpt#gruppo-chatgpt)
 ---
 
 ## Visualizza i comandi
@@ -74,27 +89,27 @@ dromi.exe nomefile.dr
 
 ## Pacchetti
 
-###### Installare
+### Installare
 Digitate nel terminale:
 
 ```Bash
 dromi.exe --mdl pip install nomepacchetto
 ```
 
-###### Visualizzarli tutti
+### Visualizzarli tutti
 
 Digitate nel terminale:
 ```Bash
 dromi.exe --mdl pip list
 ```
-###### Disintallare
+### Disintallare
 
 Digitate nel terminale::
 ```Bash
 dromi.exe --mdl pip remove nomepachetto
 ```
 
-###### Usare i moduli installati
+### Usare i moduli installati
 
 ad esempio abbiamo installato `windawk`:
 
@@ -115,10 +130,10 @@ windawk.windawk()
 
 ## Installa
 
-###### Ultima Versione
+### Ultima Versione
 👉 [Scarica l'ultima versione - Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.3/dromi_installer_64bit_windows_1.0.3.exe)
 
-###### Oppure una versione specifica
+### Oppure una versione specifica
 
 | Versione | Installa       | Supporto |
 |:--------:|:--------------:|:---------|
