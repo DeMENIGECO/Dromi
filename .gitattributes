@@ -6,3 +6,6 @@ README.md export-ignore
 
 # non mette nella zip la cartella .github, che serve solo a GitHub
 .github/ export-ignore
+
+# non mette il readme inutile
+opt/README.txt export-ignore
