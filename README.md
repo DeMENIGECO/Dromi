@@ -1,4 +1,4 @@
-# Dromi 1.0.3
+# Dromi 1.1.0
 [![Passing](https://img.shields.io/badge/Test-passati-green)](https://github.com/DeMENIGECO/Dromi/blob/main/.github/SIGNIFICATES.md?sect=Test-passati#test-passati)
 [![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
 
@@ -8,12 +8,13 @@ _Go to PC's Dromi!_
 
 ## Tabella dei contenuti
 
-- [🔜⭐ Visualizza i comandi](#visualizza-i-comandi)
+- [🔄 Visualizza i comandi](#visualizza-i-comandi)
 - [Esempio di codice](#esempio-di-codice)
 - [Andare nella REPL](#andare-nella-repl)
 - [Eseguire file](#eseguire-file)
 - [Pacchetti](#pacchetti)
   - [Installare](#installare)
+    - [Sicurezza nelle installazioni di PIP](#sicurezza-nelle-installazioni-di-pip)
   - [Visualizzarli tutti](#visualizzarli-tutti)
   - [Disinstallare](#disinstallare)
   - [Usare i moduli installati](#usare-i-moduli-installati)
@@ -31,19 +32,7 @@ Digita nel terminale:
 ```Bash
 dromi.exe
 ```
-e dovrebbe apparire:
-
-```Output
-Uso:
- dromi.exe file.dr
- dromi.exe --mdl pip install nome_modulo
- dromi.exe --mdl pip list
- dromi.exe --mdl pip remove nome_modulo
-
-Esempi:
- dromi.exe example.dr
- dromi.exe --mdl pip install windawk
-```
+e dovrebbe apparire una guida dei comandi
 
 > [!TIP]
 > - Se il comando `dromi.exe` non funziona, prova `dromi`.
@@ -100,6 +89,10 @@ Digitate nel terminale:
 dromi.exe --mdl pip install nomepacchetto
 ```
 
+#### Sicurezza nelle installazioni di PIP
+Nella versione 1.1.0 è stata messa più sicurezza a PIP.
+Quindi adesso le installazioni di PIP saranno più sicure e ci saranno meno rischi.
+
 ### Visualizzarli tutti
 
 Digitate nel terminale:
@@ -135,12 +128,13 @@ windawk.windawk()
 ## Installa
 
 ### Ultima Versione
-👉 [Scarica l'ultima versione - Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.3/dromi_installer_64bit_windows_1.0.3.exe)
+👉 [Scarica l'ultima versione - Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.1.0/dromi_installer_64bit_windows_1.1.0.exe)
 
 ### Oppure una versione specifica
 
 | Versione | Installa       | Supporto |
 |:--------:|:--------------:|:---------|
+| 1.1.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.1.0/dromi_installer_64bit_windows_1.1.0.exe)| Supportata |
 | 1.0.3    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.3/dromi_installer_64bit_windows_1.0.3.exe)| Supportata | 
 | 1.0.2    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.2/dromi_installer_64bit_windows_1.0.2.exe)| Supportata |
 | 1.0.1    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.1/dromi_installer_64bit_windows_1.0.1.exe)| Supportata |
