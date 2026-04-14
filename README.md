@@ -6,7 +6,7 @@
 
 [![Passing](https://img.shields.io/badge/Test-passati-green)](https://github.com/DeMENIGECO/Dromi/blob/main/.github/SIGNIFICATES.md?sect=Test-passati#test-passati)
 [![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
-[![Changelog](https://img.shields.io/badge/Changelog-vai-007FFF)](https://github.com/DeMENIGECO/Dromi/blob/main/CHANGHELOG.md)
+[![Changelog](https://img.shields.io/badge/Changelog-vai-007FFF)](https://github.com/DeMENIGECO/Dromi/blob/main/CHANGELOG.md)
 
 _Go to PC's Dromi!_
 
