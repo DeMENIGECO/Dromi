@@ -34,6 +34,7 @@ _Go to PC's Dromi!_
   - [Dromi Docs](#dromi-docs)
   - [🆕 DFIE](#dfie)
 - [Compatibilità Windows 10 e 11](#compatibilità-windows-10-e-11)
+- [Versione non compilata](#versione-non-compilata)
 
 ---
 
@@ -223,6 +224,11 @@ Per vedere le versioni supportate:
 - [Versioni supportate di Windows 11](https://github.com/DeMENIGECO/Dromi/tree/main/.github/compatibility/win11.md)
 - [Versioni supportate di Windows 10](https://github.com/DeMENIGECO/Dromi/tree/main/.github/compatibility/win10.md)
 
+---
+## Versione non compilata
+Vai alla versione non compilata di Dromi nella cartella `not-compiled`:
+
+👉 [Vai alla cartella](https://github.com/DeMENIGECO/Dromi/tree/main/not-compiled/)
 
 ---
 
