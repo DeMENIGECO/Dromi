@@ -30,6 +30,9 @@ _Go to PC's Dromi!_
   - [Ultima versione](#ultima-versione)
   - [Oppure una versione specifica](#oppure-una-versione-specifica)
 - [🆕 Gruppo ChatGPT](#gruppo-chatgpt)
+- [Usare le Dromi Apps](#usare-le-dromi-apps)
+  - [Dromi Docs](#dromi-docs)
+  - [🆕 DFIE](#dfie)
 
 ---
 
@@ -175,6 +178,40 @@ windawk.windawk()
 Partecipa per approfindimento, suggerimenti e altro:
 
 👉 https://demenigeco.github.io/githubpages/r/chatgpt/group-69d14df0f5848199b6c6e78a2d5ee867.html
+
+---
+
+## Usare le Dromi Apps
+
+### Dromi Docs
+Andate nl menù start, digitate "Dromi Docs" e aprite l'app "Dromi Docs" (Quella con l'icona di Dromi)
+
+Selezionate la versione desiderata per accedere ai Docs locali.
+
+### DFIE
+
+Apri il menu Start, digita `DFIE` e avvia l'app **DFIE** (quella con l'icona di Dromi).
+
+Per iniziare, apri un file Dromi:
+- Vai su `File → Apri`
+- Seleziona il file desiderato
+
+DFIE evidenzia automaticamente il codice con colori specifici:
+
+| Colore | Significato |
+|--------|------------|
+| 🟢 Verde | Funzioni Dromi |
+| 🔴 Rosso | Imports |
+| 🟠 Arancione | Variabili |
+| 🟠 Chiaro | Commenti |
+| 🔵 Azzurro | Funzioni utente |
+| 🔴 Rosso + sottolineato | Errori |
+
+Questa evidenziazione aiuta a leggere meglio il codice e trovare errori più velocemente.
+
+Quando hai finito:
+- Vai su `File → Salva`
+- Il file verrà aggiornato
 
 ---
 
