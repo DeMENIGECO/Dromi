@@ -3,7 +3,7 @@
 ## Tabella dei contenuti
 - [1.1.0](#110)
   - [Generale 1.1.0](#generale-110)
-  - [Comando `dromi.exe` cambiato in 1.1.0](comando-dromiexe-cambiato-in-110)
+  - [Comando `dromi.exe` cambiato in 1.1.0](#comando-dromiexe-cambiato-in-110)
   - [Altre migliorie 1.1.0](#altre-migliorie-110)
 - [1.0.3](#103)
   - [Generale 1.0.3](#generale-103)
@@ -25,7 +25,7 @@
 - ⚙️ Ottimizzazioni generali
 - 🐞 Correzione di bug minori
 
-### Comando dromi.exe cambiato in 1.1.0
+### Comando `dromi.exe` cambiato in 1.1.0
 Ora il comando `dromi.exe` è cambiato per la sua guida.
 Ora ha una guida più approfindita.
 
