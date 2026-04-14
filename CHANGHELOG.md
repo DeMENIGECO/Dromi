@@ -25,7 +25,7 @@
 - ⚙️ Ottimizzazioni generali
 - 🐞 Correzione di bug minori
 
-### Comando `dromi.exe` cambiato in 1.1.0
+### Comando dromi.exe cambiato in 1.1.0
 Ora il comando `dromi.exe` è cambiato per la sua guida.
 Ora ha una guida più approfindita.
 
