@@ -33,6 +33,7 @@ _Go to PC's Dromi!_
 - [Usare le Dromi Apps](#usare-le-dromi-apps)
   - [Dromi Docs](#dromi-docs)
   - [🆕 DFIE](#dfie)
+- [Compatibilità Windows 10 e 11](#compatibilità-windows-10-e-11)
 
 ---
 
@@ -212,6 +213,16 @@ Questa evidenziazione aiuta a leggere meglio il codice e trovare errori più vel
 Quando hai finito:
 - Vai su `File → Salva`
 - Il file verrà aggiornato
+
+---
+
+## Compatibilità Windows 10 e 11
+Dromi Supporta Windows 10 e Windows 11.
+Per vedere le versioni supportate:
+
+- [Versioni supportate di Windows 11](https://github.com/DeMENIGECO/Dromi/tree/main/.github/compatibility/win11.md)
+- [Versioni supportate di Windows 10](https://github.com/DeMENIGECO/Dromi/tree/main/.github/compatibility/win10.md)
+
 
 ---
 
