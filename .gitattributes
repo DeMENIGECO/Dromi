@@ -3,3 +3,4 @@ README.md export-ignore
 .github/ export-ignore
 opt/README.txt export-ignore
 not-compiled/ export-ignore
+CHANGELOG.md export-ignore
