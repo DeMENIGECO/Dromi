@@ -1,11 +1,5 @@
-# non mette nella zip questo stesso file, non serve
 .gitattributes export-ignore
-
-# non mette nella zip il README, sarà sicuramente giá letto
 README.md export-ignore
-
-# non mette nella zip la cartella .github, che serve solo a GitHub
 .github/ export-ignore
-
-# non mette il readme inutile
 opt/README.txt export-ignore
+not-compiled/ export-ignore
