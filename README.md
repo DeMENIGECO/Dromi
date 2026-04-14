@@ -14,7 +14,7 @@ _Go to PC's Dromi!_
 ## Tabella dei contenuti
 
 - [Cos'è Dromi?](#cosè-dromi)
-- [Novità nella versione 1.1.0](#novità-nella-versione-110)
+- [🔥 Novità nella versione 1.1.0](#novità-nella-versione-110)
 - [🔄 Visualizza i comandi](#visualizza-i-comandi)
 - [Esempio di codice](#esempio-di-codice)
 - [Andare nella REPL](#andare-nella-repl)
