@@ -37,6 +37,7 @@ _Go to PC's Dromi!_
 - [Compatibilità Windows 10 e 11](#compatibilità-windows-10-e-11)
 - [Versione non compilata](#versione-non-compilata)
 - [🔜 Dromi per Linux](#dromi-per-linux)
+- [🆕 Estensione VS Code](#estensione-vs-code)
 
 ---
 
@@ -249,6 +250,20 @@ Quando sarà disponibile, aggiungeremo qui il link alla cartella:
 
 >[!TIP]
 >Deve generare file per Linux PyInstaller perché le repository GitHub (precisamente dove girano) è Linux
+
+---
+
+## Estensione VS Code
+
+Abbiamo fatto l'estensione Dromi per VS Code, ecco come installare:
+
+- Andate sul marketplace
+- Digitate nella barra di Ricerca "DrLance"
+- Scaricate l'estensione "DrLance"
+
+Ecco la pagina web dell'estensione:
+
+👉 https://marketplace.visualstudio.com/items?itemName=DromiSofwares.dromisofwares-drlance
 
 ---
 
