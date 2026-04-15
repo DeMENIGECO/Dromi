@@ -1,0 +1,49 @@
+name: Build Linux Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clona repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installa dipendenze
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyinstaller
+
+      - name: Build con PyInstaller
+        run: |
+          cd not-compiled
+          pyinstaller dromi.py --onefile
+
+      - name: Comprimi build
+        run: |
+          cd not-compiled/dist
+          tar -czvf dromi-linux.tar.gz *
+
+      - name: Sposta file
+        run: |
+          mkdir -p dromi-linux
+          cp not-compiled/dist/dromi-linux.tar.gz dromi-linux/
+
+      - name: Commit e push
+        run: |
+          git config user.email "github-actions@github.com"
+          git config user.name "github-actions"
+          git add dromi-linux/
+          git commit -m "Add Linux build from release"
+          git push
