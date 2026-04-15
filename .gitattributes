@@ -5,3 +5,4 @@ opt/README.txt export-ignore
 not-compiled/ export-ignore
 CHANGELOG.md export-ignore
 Tools/ export-ignore
+dromi-linux/ export-ignore
