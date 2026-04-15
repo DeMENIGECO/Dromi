@@ -36,6 +36,7 @@ _Go to PC's Dromi!_
   - [🆕 DFIE](#dfie)
 - [Compatibilità Windows 10 e 11](#compatibilità-windows-10-e-11)
 - [Versione non compilata](#versione-non-compilata)
+- [🔜 Dromi per Linux](#dromi-per-linux)
 
 ---
 
@@ -230,6 +231,21 @@ Per vedere le versioni supportate:
 Vai alla versione non compilata di Dromi nella cartella `not-compiled`:
 
 👉 [Vai alla cartella](https://github.com/DeMENIGECO/Dromi/tree/main/not-compiled/)
+
+---
+
+## Dromi per Linux
+Nella prossima release, grazie alle GitHub Actions, verrà generato automaticamente il file `dromi-linux.tar.gz` nella cartella `dromi-linux`.
+
+- Va nella cartella dei file non compilati (`not-compiled`)
+- Installa Python 3.11 e PyInstaller
+- Esegue la build di Dromi con PyInstaller
+- Accede alla cartella `dist` generata
+- Crea un archivio `.tar.gz` chiamato `dromi-linux.tar.gz`
+- Copia il file nella cartella `dromi-linux` (creandola se non esiste)
+
+Quando sarà disponibile, aggiungeremo qui il link alla cartella:  
+👉 **COMING SOON**
 
 ---
 
