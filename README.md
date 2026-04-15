@@ -247,6 +247,9 @@ Nella prossima release, grazie alle GitHub Actions, verrà generato automaticame
 Quando sarà disponibile, aggiungeremo qui il link alla cartella:  
 👉 **COMING SOON**
 
+>[!TIP]
+>Deve generare file per Linux PyInstaller perché le repository GitHub (precisamente dove girano) è Linux
+
 ---
 
 <p align="center">
