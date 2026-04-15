@@ -22,6 +22,8 @@ In questa pagina trovi tutte le versioni di Windows 11 compatibili con **Dromi**
 - [x] 24H1
 - [x] 23H2
 - [x] 23H1
+- [x] 22H2
+- [x] 22H1
 
 ---
 
