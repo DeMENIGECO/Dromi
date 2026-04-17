@@ -263,7 +263,7 @@ Abbiamo fatto l'estensione Dromi per VS Code, ecco come installare:
 
 Ecco la pagina web dell'estensione:
 
-👉 https://marketplace.visualstudio.com/items?itemName=DromiSofwares.dromisofwares-drlance
+👉 https://demenigeco.github.io/dronilang/vscode
 
 ---
 
