@@ -1,0 +1,15 @@
+name: "Aggiungi label non-letto"
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-label:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Aggiungi label non-letto
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: non-letto
