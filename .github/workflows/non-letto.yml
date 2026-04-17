@@ -13,3 +13,5 @@ jobs:
         uses: actions-ecosystem/action-add-labels@v1
         with:
           labels: non-letto
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
