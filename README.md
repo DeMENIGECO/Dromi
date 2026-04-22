@@ -251,6 +251,9 @@ Quando sarà disponibile, aggiungeremo qui il link alla cartella:
 >[!TIP]
 >Deve generare file per Linux PyInstaller perché le repository GitHub (precisamente dove girano) è Linux
 
+>[!WARNING]
+>Quello in `dromi-linux.tar.gz` è Dromi, ma senza i moduli preinstallati, e le dovrete installare manualmente con PIP. [Vedi i moduli preinstallati](#moduli-preinstallati)
+
 ---
 
 ## Estensione VS Code
