@@ -252,7 +252,13 @@ Quando sarà disponibile, aggiungeremo qui il link alla cartella:
 >Deve generare file per Linux PyInstaller perché le repository GitHub (precisamente dove girano) è Linux
 
 >[!WARNING]
->Quello in `dromi-linux.tar.gz` è Dromi, ma senza i moduli preinstallati, e le dovrete installare manualmente con PIP. [Vedi i moduli preinstallati](#moduli-preinstallati)
+>Quello in `dromi-linux.tar.gz` è Dromi per Linux, ma non include le librerie standard di Dromi.
+>Questo significa che i moduli di Dromi preinstallati devono essere installati manualmente tramite il gestore pacchetti PIP di Dromi.
+>
+>👉 Vedi i moduli di Dromi preinstallati qui: [Moduli preinstallati](#moduli-preinstallati)
+>
+>📦 Nota tecnica:
+>L’eseguibile su Linux è un file binario standard (ELF) senza estensione.
 
 ---
 
