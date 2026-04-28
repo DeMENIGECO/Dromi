@@ -233,6 +233,8 @@ Vai alla versione non compilata di Dromi nella cartella `not-compiled`:
 
 👉 [Vai alla cartella](https://github.com/DeMENIGECO/Dromi/tree/main/not-compiled/)
 
+👉 [Per saperne di più](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/README.md)
+
 ---
 
 ## Dromi per Linux
