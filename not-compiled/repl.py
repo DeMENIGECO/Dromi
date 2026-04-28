@@ -2,7 +2,7 @@ import sys
 import graf_lib as dr  # libreria GUI basata su Tkinter
 
 def start_repl():
-    print("Dromi 1.1.0 - Windows 64 Bit")
+    print("Dromi 1.1.1 - Windows 64 Bit")
     print("Scrivi 'exit' per uscire\n")
 
     # Ambiente globale condiviso (importantissimo)

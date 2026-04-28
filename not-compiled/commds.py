@@ -5,7 +5,7 @@ RESET = "\033[0m"
 
 # dromi.exe
 print(f"{VERDE}Dromi Commands (via terminale){RESET}")
-print(f"{VERDE}Dromi 1.1.0 - Windows 64 Bit{RESET}")
+print(f"{VERDE}Dromi 1.1.1 - Windows 64 Bit{RESET}")
 print("")
 print("dromi.exe            | Mostra questa guida.")
 print("---------------------|")
@@ -23,7 +23,7 @@ os.system("cls")
 
 # dromi.exe [FILENAME]
 print(f"{VERDE}Dromi Commands (via terminale){RESET}")
-print(f"{VERDE}Dromi 1.1.0 - Windows 64 Bit{RESET}")
+print(f"{VERDE}Dromi 1.1.1 - Windows 64 Bit{RESET}")
 print("")
 print("dromi.exe [FILENAME] | Esegue un file Dromi.")
 print("---------------------|")
@@ -43,7 +43,7 @@ os.system("cls")
 
 # dromi.exe --mdl repl
 print(f"{VERDE}Dromi Commands (via terminale){RESET}")
-print(f"{VERDE}Dromi 1.1.0 - Windows 64 Bit{RESET}")
+print(f"{VERDE}Dromi 1.1.1 - Windows 64 Bit{RESET}")
 print("")
 print("dromi.exe --mdl repl | Esegue il REPL di Dromi.")
 print("---------------------|")
@@ -62,7 +62,7 @@ os.system("cls")
 
 # dromi.exe --mdl pip install [PACKAGE]
 print(f"{VERDE}Dromi Commands (via terminale){RESET}")
-print(f"{VERDE}Dromi 1.1.0 - Windows 64 Bit{RESET}")
+print(f"{VERDE}Dromi 1.1.1 - Windows 64 Bit{RESET}")
 print("")
 print("dromi.exe --mdl pip  |")
 print("install [PACKAGE]    | Installa un pacchetto Dromi.")
@@ -81,7 +81,7 @@ os.system("cls")
 
 # dromi.exe --mdl pip list
 print(f"{VERDE}Dromi Commands (via terminale){RESET}")
-print(f"{VERDE}Dromi 1.1.0 - Windows 64 Bit{RESET}")
+print(f"{VERDE}Dromi 1.1.1 - Windows 64 Bit{RESET}")
 print("")
 print("dromi.exe --mdl pip  |")
 print("list                 | Mostra i pacchetti Dromi installati.")
@@ -100,7 +100,7 @@ os.system("cls")
 
 # dromi.exe --mdl pip remove [PACKAGE]
 print(f"{VERDE}Dromi Commands (via terminale){RESET}")
-print(f"{VERDE}Dromi 1.1.0 - Windows 64 Bit{RESET}")
+print(f"{VERDE}Dromi 1.1.1 - Windows 64 Bit{RESET}")
 print("")
 print("dromi.exe --mdl pip  |")
 print("remove [PACKAGE]     | Rimuove un pacchetto Dromi.")
@@ -119,7 +119,7 @@ os.system("cls")
 
 # fine
 print(f"{VERDE}Dromi Commands (via terminale){RESET}")
-print(f"{VERDE}Dromi 1.1.0 - Windows 64 Bit{RESET}")
+print(f"{VERDE}Dromi 1.1.1 - Windows 64 Bit{RESET}")
 print("")
 print("Hai finito di leggere la guida ai comandi di Dromi!")
 input("Premi INVIO per continuare...")
