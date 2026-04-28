@@ -1,6 +1,9 @@
 # Changelog di Dromi
 
 ## Tabella dei contenuti
+- [1.1.1](#111)
+  - [Generale 1.1.1](#generale-111)
+  - [Altre migliorie 1.0.3](#altre-migliorie-111)
 - [1.1.0](#110)
   - [Generale 1.1.0](#generale-110)
   - [Comando `dromi.exe` cambiato in 1.1.0](#comando-dromiexe-cambiato-in-110)
@@ -17,6 +20,22 @@
 - [1.0.0](#100)
   - [Generale 1.0.0](#generale-100)
 
+---
+
+## 1.1.1
+
+### Generale 1.1.1
+
+- ⚙️ Ottimizzazioni generali
+- 🐞 Correzione di bug minori
+
+### Altre migliorie 1.1.1
+
+- **⚙️ Ottimizzazioni generali:** Si sono fatte migliorie
+- **🐞 Correzione di bug minori:** Alcuni bug sono stati risolti
+
+
+---
 ## 1.1.0
 
 ### Generale 1.1.0
