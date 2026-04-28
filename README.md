@@ -2,7 +2,7 @@
 
 <img width="100" height="100" alt="dromi-icon" src="https://github.com/user-attachments/assets/e7766418-7818-402f-81e7-8703cb08a264" />
 
-# Dromi 1.1.0
+# Dromi 1.1.1
 
 [![Passing](https://img.shields.io/badge/Test-passati-green)](https://github.com/DeMENIGECO/Dromi/blob/main/.github/SIGNIFICATES.md?sect=Test-passati#test-passati)
 [![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
@@ -15,14 +15,13 @@ _Go to PC's Dromi!_
 ## Tabella dei contenuti
 
 - [Cos'è Dromi?](#cosè-dromi)
-- [🔥 Novità nella versione 1.1.0](#novità-nella-versione-110)
+- [🔥 Novità nella versione 1.1.1](#novità-nella-versione-110)
 - [🔄 Visualizza i comandi](#visualizza-i-comandi)
 - [Esempio di codice](#esempio-di-codice)
 - [Andare nella REPL](#andare-nella-repl)
 - [Eseguire file](#eseguire-file)
 - [Pacchetti](#pacchetti)
   - [Installare](#installare)
-    - [Sicurezza nelle installazioni di PIP](#sicurezza-nelle-installazioni-di-pip)
   - [Visualizzarli tutti](#visualizzarli-tutti)
   - [Disinstallare](#disinstallare)
   - [Usare i moduli installati](#usare-i-moduli-installati)
@@ -36,7 +35,7 @@ _Go to PC's Dromi!_
   - [🆕 DFIE](#dfie)
 - [Compatibilità Windows 10 e 11](#compatibilità-windows-10-e-11)
 - [Versione non compilata](#versione-non-compilata)
-- [🔜 Dromi per Linux](#dromi-per-linux)
+- [🆕 Dromi per Linux](#dromi-per-linux)
 - [🆕 Estensione VS Code](#estensione-vs-code)
 
 ---
@@ -45,9 +44,8 @@ _Go to PC's Dromi!_
 Dromi è un linguaggio per creare interfacce grafiche in modo semplice e veloce.
 
 ---
-## Novità nella versione 1.1.0
+## Novità nella versione 1.1.1
 
-- 🔄 Migliorata la sicurezza di PIP  
 - ⚙️ Ottimizzazioni generali  
 - 🐞 Correzione di bug minori  
 
@@ -116,10 +114,6 @@ Digitate nel terminale:
 dromi.exe --mdl pip install nomepacchetto
 ```
 
-#### Sicurezza nelle installazioni di PIP
-Nella versione 1.1.0 è stata messa più sicurezza a PIP.
-Quindi adesso le installazioni di PIP saranno più sicure e ci saranno meno rischi.
-
 ### Visualizzarli tutti
 
 Digitate nel terminale:
@@ -155,12 +149,13 @@ windawk.windawk()
 ## Installa
 
 ### Ultima Versione
-👉 [Scarica l'ultima versione - Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.1.0/dromi_installer_64bit_windows_1.1.0.exe)
+👉 [Scarica l'ultima versione - Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.1.1/dromi_installer_64bit_windows_1.1.1.exe)
 
 ### Oppure una versione specifica
 
 | Versione | Installa       | Supporto |
 |:--------:|:--------------:|:---------|
+| 1.1.1    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.1.1/dromi_installer_64bit_windows_1.1.1.exe)| Supportata |
 | 1.1.0    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.1.0/dromi_installer_64bit_windows_1.1.0.exe)| Supportata |
 | 1.0.3    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.3/dromi_installer_64bit_windows_1.0.3.exe)| Supportata | 
 | 1.0.2    | [Windows 64 Bit](https://github.com/DeMENIGECO/Dromi/releases/download/1.0.2/dromi_installer_64bit_windows_1.0.2.exe)| Supportata |
@@ -238,7 +233,7 @@ Vai alla versione non compilata di Dromi nella cartella `not-compiled`:
 ---
 
 ## Dromi per Linux
-Nella prossima release, grazie alle GitHub Actions, verrà generato automaticamente il file `dromi-linux.tar.gz` nella cartella `dromi-linux`.
+Oraè possibile scaricare Dromi per Linux. Con le GitHub actions, verrà generato automaticamente il file `dromi-linux.tar.gz` nella cartella `dromi-linux`. Ecco cosa fa:
 
 - Va nella cartella dei file non compilati (`not-compiled`)
 - Installa Python 3.11 e PyInstaller
@@ -248,7 +243,7 @@ Nella prossima release, grazie alle GitHub Actions, verrà generato automaticame
 - Copia il file nella cartella `dromi-linux` (creandola se non esiste)
 
 Quando sarà disponibile, aggiungeremo qui il link alla cartella:  
-👉 **COMING SOON**
+👉 https://github.com/DeMENIGECO/Dromi/tree/main/dromi-linux
 
 >[!TIP]
 >Deve generare file per Linux PyInstaller perché le repository GitHub (precisamente dove girano) è Linux
