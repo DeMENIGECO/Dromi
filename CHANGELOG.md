@@ -1,141 +1,59 @@
 # Changelog di Dromi
 
-## Tabella dei contenuti
-- [1.1.1](#111)
-  - [Generale 1.1.1](#generale-111)
-  - [Altre migliorie 1.1.1](#altre-migliorie-111)
-- [1.1.0](#110)
-  - [Generale 1.1.0](#generale-110)
-  - [Comando `dromi.exe` cambiato in 1.1.0](#comando-dromiexe-cambiato-in-110)
-  - [Altre migliorie 1.1.0](#altre-migliorie-110)
-- [1.0.3](#103)
-  - [Generale 1.0.3](#generale-103)
-  - [Altre migliorie 1.0.3](#altre-migliorie-103)
-- [1.0.2](#102)
-  - [Generale 1.0.2](#generale-102)
-  - [Altre migliorie 1.0.2](#altre-migliorie-102)
-- [1.0.1](#101)
-  - [Generale 1.0.1](#generale-101)
-  - [Altre migliorie 1.0.1](#altre-migliorie-101)
-- [1.0.0](#100)
-  - [Generale 1.0.0](#generale-100)
+## Analizza
+
+- [1](#1)
 
 ---
 
-## 1.1.1
+## 1
 
-### Generale 1.1.1
+<details>
+  <summary>1.1.1</summary>
 
-- ⚙️ Ottimizzazioni generali
-- 🐞 Correzione di bug minori
+  - **Correzzione di bug** Ci sono stati correzioni di bug.
+  - **Miglioramenti generali** Ci sono stati miglioramenti
+  - **Nuovo installer** Ora l'installer per Windows è diventato più semplice da usare.
+</details>
 
-### Altre migliorie 1.1.1
+<details>
+  <summary>1.1.0</summary>
 
-- **⚙️ Ottimizzazioni generali:** Si sono fatte migliorie
-- **🐞 Correzione di bug minori:** Alcuni bug sono stati risolti
+  - **Correzzione di bug** Ci sono stati correzioni di bug.
+  - **Miglioramenti generali** Ci sono stati miglioramenti
+  - **Introduzione dell'app DFIE** Con questa nuova app potete modificare i vostri file Dromi
+  - **Migliore sicurezza di PIP** Ora PIP è più sicuro
+  - **Nuova guida dei comandi** La guida ai comandi è cambiata
+    
+</details>
 
+<details>
+  <summary>1.0.3</summary>
 
----
-## 1.1.0
+  - **Correzzione di bug** Ci sono stati correzioni di bug.
+  - **Miglioramenti generali** Ci sono stati miglioramenti
+  - **Introduzione dell'app Dromi Docs** Con questa nuova app puoi accedere ai docs locali.
+</details>
 
-### Generale 1.1.0
+<details>
+  <summary>1.0.2</summary>
 
-- 🔄 Migliorata la sicurezza di PIP
-- ⚙️ Ottimizzazioni generali
-- 🐞 Correzione di bug minori
+  - **Correzzione di bug** Ci sono stati correzioni di bug.
+  - **Miglioramenti generali** Ci sono stati miglioramenti
+</details>
 
-### Comando `dromi.exe` cambiato in 1.1.0
-Ora il comando `dromi.exe` è cambiato per la sua guida.
-Ora ha una guida più approfindita.
+<details>
+  <summary>1.0.1</summary>
 
-Ogni comando avra una schermata propria nel terminale, che dovrebbe essere qualcosa del genere:
+  - **Correzzione di bug** Ci sono stati correzioni di bug.
+  - **Miglioramenti generali** Ci sono stati miglioramenti
+</details>
 
-```Shell-Output
-Dromi Commands (via terminale)
-Dromi 1.1.0 - Windows 64 Bit
+<details>
+  <summary>1.0.0</summary>
 
-dromi.exe comando    | Descrizione comando
----------------------|
-Elementi da scrivere |
-                     |
----------------------|
-Suggerimento:        | Se hai più versioni di Dromi,
-                     | Usa dromi123 al posto di dromi.exe (es: dromi110 per Dromi 1.1.0)
----------------------|
-                     |
-                     |
-                     |
-                     |
-                     |
-                  --snip--
-Premi INVIO per continuare...
-```
-
-e alla fine ci sarà:
-
-```Shell-Output
-Dromi Commands (via terminale)
-Dromi 1.1.0 - Windows 64 Bit
-
-Hai finito di leggere la guida ai comandi di Dromi!
-Premi INVIO per continuare...
-```
-
-### Altre migliorie 1.1.0
-
-- **🔄 Migliorata la sicurezza di PIP:** ora PIP è più sicuro
-- **⚙️ Ottimizzazioni generali:** Si sono fatte migliorie
-- **🐞 Correzione di bug minori:** Alcuni bug sono stati risolti
-
----
-
-## 1.0.3
-
-### Generale 1.0.3
-
-- ⚙️ Ottimizzazioni generali
-- 🐞 Correzione di bug minori
-
-### Altre migliorie 1.0.3
-
-- **⚙️ Ottimizzazioni generali:** Si sono fatte migliorie
-- **🐞 Correzione di bug minori:** Alcuni bug sono stati risolti
-
----
-
-## 1.0.2
-
-### Generale 1.0.2
-
-- ⚙️ Ottimizzazioni generali
-- 🐞 Correzione di bug minori
-
-### Altre migliorie 1.0.2
-
-- **⚙️ Ottimizzazioni generali:** Si sono fatte migliorie
-- **🐞 Correzione di bug minori:** Alcuni bug sono stati risolti
-
----
-
-## 1.0.1
-
-### Generale 1.0.1
-
-- ⚙️ Ottimizzazioni generali
-- 🐞 Correzione di bug minori
-
-### Altre migliorie 1.0.1
-
-- **⚙️ Ottimizzazioni generali:** Si sono fatte migliorie
-- **🐞 Correzione di bug minori:** Alcuni bug sono stati risolti
-
----
-
-## 1.0.0
-
-### Generale 1.0.0
-
-- ⚙️ Prima versione di Dromi
+  - **La prima versione di Dromi** Questa è la prima versione di Dromi
+</details>
 
 ---
 
