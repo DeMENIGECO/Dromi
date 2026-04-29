@@ -3,7 +3,7 @@
 ## Tabella dei contenuti
 - [1.1.1](#111)
   - [Generale 1.1.1](#generale-111)
-  - [Altre migliorie 1.0.3](#altre-migliorie-111)
+  - [Altre migliorie 1.1.1](#altre-migliorie-111)
 - [1.1.0](#110)
   - [Generale 1.1.0](#generale-110)
   - [Comando `dromi.exe` cambiato in 1.1.0](#comando-dromiexe-cambiato-in-110)
