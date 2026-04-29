@@ -25,6 +25,7 @@ Per poter usare il comando dromi da qualsiasi terminale senza scrivere ./dromi, 
 Prima trova dove si trova la cartella di Dromi (per esempio /home/utente/dromi).
 
 Poi apri il file della tua shell:
+
 - se usi bash: ~/.bashrc
 - se usi zsh: ~/.zshrc
 
