@@ -18,6 +18,26 @@ digiate nel terminale in cui avete estratto Dromi:
 
 Così, potrete installarli.(1)
 
+1.1.1. Come aggiungere la "variabile"
+
+Per poter usare il comando dromi da qualsiasi terminale senza scrivere ./dromi, bisogna aggiungere la cartella di Dromi alla variabile di sistema PATH.
+
+Prima trova dove si trova la cartella di Dromi (per esempio /home/utente/dromi).
+
+Poi apri il file della tua shell:
+- se usi bash: ~/.bashrc
+- se usi zsh: ~/.zshrc
+
+Aggiungi alla fine del file questa riga:
+
+export PATH="$PATH:/home/utente/dromi"
+
+Salva il file e ricaricalo con: 
+
+source ~/.bashrc
+
+Dopo questo, potrai usare semplicemente il comando dromi da qualsiasi terminale.
+
 1.2. REPL Con Hardware sbagliato 
 
 La REPL (La Dromi REPL) ha come hardware "Windows 64 Bit".
