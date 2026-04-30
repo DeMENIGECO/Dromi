@@ -14,8 +14,7 @@
 
 - **Python** - [dromi.py](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/dromi.py), [pip.py](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/pip.py), [graf_lib.py](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/graf_lib.py), [repl.py](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/repl.py), [commds.py](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/commds.py) e nelle cartelle [mdl/](https://github.com/DeMENIGECO/Dromi/tree/main/not-compiled/mdl), [pip_installed/](https://github.com/DeMENIGECO/Dromi/tree/main/not-compiled/pip_installed) e [temp_pip/](https://github.com/DeMENIGECO/Dromi/tree/main/not-compiled/temp_pip)
 - **Dromi** - [mdl/windawk/main.dr](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/mdl/windawk/main.dr), [mdl/oTst/main.dr](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/mdl/oTst/main.dr), [pip_installed/windawk/main.dr](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/pip_installed/windawk/main.dr), [pip_installed/oTst/main.dr](https://github.com/DeMENIGECO/Dromi/blob/main/not-compiled/pip_installed/oTst/main.dr) e nella cartella [temp_pip/](https://github.com/DeMENIGECO/Dromi/tree/main/not-compiled/temp_pip)
-- **NOTA** - La cartella [dist/dromi](https://github.com/DeMENIGECO/Dromi/tree/main/not-compiled/dist/dromi) Non fa parte della versione non compilata, ma della versione per Linux per le Build.
-
+  
 ---
 
 ## Cos'è la versione non compilata?
