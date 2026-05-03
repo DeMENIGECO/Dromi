@@ -1,0 +1,49 @@
+name: Test Dromi non compilato
+
+on:
+  push:
+    paths:
+      - 'not-compiled/**'
+  pull_request:
+    paths:
+      - 'not-compiled/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    env:
+      CI: true
+
+    defaults:
+      run:
+        working-directory: not-compiled   # 🔥 cd automatico
+
+    steps:
+      - name: Checkout (safe)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Python 3.14
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Test guida (7 invii automatici)
+        run: printf '\n%.0s' {1..7} | python dromi.py
+
+      - name: Esegui file di esempio
+        run: python dromi.py ../example.dr
+
+      - name: Installa pacchetto (mdl)
+        run: python dromi.py --mdl pip install windawk || true
+
+      - name: Lista pacchetti
+        run: python dromi.py --mdl pip list
+
+      - name: Rimuovi pacchetto
+        run: python dromi.py --mdl pip remove windawk || true
+
+      - name: Test REPL (auto input)
+        run: printf 'help\nexit\n' | python dromi.py --mdl repl || true
