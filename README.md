@@ -7,6 +7,7 @@
 [![PassingBin](https://img.shields.io/badge/Test%20per%20Compilato-passati-green)](https://github.com/DeMENIGECO/Dromi/blob/main/.github/SIGNIFICATES.md?sect=Test-passati#test-passati)
 [![Chat](https://img.shields.io/badge/GitHub%20Discussions-vai-006400)](https://github.com/DeMENIGECO/Dromi/discussions)
 [![Changelog](https://img.shields.io/badge/Changelog-vai-007FFF)](https://github.com/DeMENIGECO/Dromi/blob/main/CHANGELOG.md)
+[![TestNC](https://github.com/DeMENIGECO/Dromi/actions/workflows/test-py.yml/badge.svg)](https://github.com/DeMENIGECO/Dromi/actions/workflows/test-py.yml)
 
 _Go to PC's Dromi!_
 
